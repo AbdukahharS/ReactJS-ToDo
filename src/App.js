@@ -9,7 +9,7 @@ function App() {
   const [ showAddTask, setShowAddTask] = useState(false)
   const [ tasks, setTasks] = useState([])
   const [ filter, setFilter ] = useState('all')
-
+  const url = 'your-api.url' //change this line
 
   useEffect(() => {
     const getTasks = async () => {
@@ -22,7 +22,7 @@ function App() {
 
   //Fetch Tasks
   const fetchTasks = async () => {
-    const res = await fetch('https://todo-apis.shaxzodqaxxorov.repl.co/')
+    const res = await fetch(url)
     const api = await res.json()
     const data = await api.data
 
@@ -31,7 +31,7 @@ function App() {
 
   //Add Task
   const addTask = async (name) => {
-    const res = await fetch('https://todo-apis.shaxzodqaxxorov.repl.co', {
+    const res = await fetch(url, {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',
@@ -45,7 +45,7 @@ function App() {
 
   //DELETE Task
   const deleteTask = async (id) => {
-    await fetch(`https://todo-apis.shaxzodqaxxorov.repl.co/${id}`, {
+    await fetch(`${url}${id}`, {
       method: 'DELETE',
     })
 
@@ -54,7 +54,7 @@ function App() {
 
   // Toggle status
   const toggleActive = async (id) => {   
-	const res = await fetch(`https://todo-apis.shaxzodqaxxorov.repl.co/${id}`, {
+	const res = await fetch(`${url}${id}`, {
       method: 'PUT',
       headers: {
         'Content-type': 'application/json',
@@ -74,7 +74,7 @@ function App() {
   
 	//Delete all completed
 	const deleteCompleted = async () => {
-		const res = await fetch('https://todo-apis.shaxzodqaxxorov.repl.co/deletecompleted/', {
+		const res = await fetch(url, {
 			method: 'POST',
 			headers: {
 				'Content-type': 'application/json',
@@ -91,7 +91,7 @@ function App() {
 	//Toggle status all
 	const toggleStatusAll = async () => {
 		if (tasks.filter(sortCompleted).length !== tasks.length) {
-			const res = await fetch('https://todo-apis.shaxzodqaxxorov.repl.co/completeall/', {
+			const res = await fetch(url, {
 				method: 'POST',
 				headers: {
 					'Content-type': 'application/json',
@@ -108,7 +108,7 @@ function App() {
 			}
 			else alert('Someting went wrong')
 		} else {
-			const res = await fetch('https://todo-apis.shaxzodqaxxorov.repl.co/activeall/', {
+			const res = await fetch(url, {
 				method: 'POST',
 				headers: {
 					'Content-type': 'application/json',
