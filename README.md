@@ -1,5 +1,5 @@
 ## 📝 Author
-<img src="https://drive.google.com/file/d/1I72YJXg2R0YCF8MKXRVx9tJgoBA6oFNU/view?usp=sharing" align="right" height="70" width="70">
+<img src="https://drive.google.com/file/d/1I72YJXg2R0YCF8MKXRVx9tJgoBA6oFNU/view" align="right" height="70" width="70">
 
 ##### Shaxzod Qaxxorov <kbd>[Github](https://github.com/KahhorovSh04) / [LinkedIn](https://www.linkedin.com/in/shakhzad-kakhkhorov)  / [Telegram](https://t.me/shaxzod_qaxxorov) /  [E-Mail](mailto:shaxzodqaxxorov004@gmail.com)</kbd>
 
