@@ -1,7 +1,7 @@
 ## 📝 Author
 <img src="https://avatars.githubusercontent.com/u/75196660?s=120&v=4" align="right" height="70" width="70" border-radius="50%">
 
-##### Shaxzod Qaxxorov <kbd>[Github](https://github.com/KahhorovSh04) / [LinkedIn](https://www.linkedin.com/in/shakhzad-kakhkhorov)  / [Telegram](https://t.me/shaxzod_qaxxorov) /  [E-Mail](mailto:shaxzodqaxxorov004@gmail.com)</kbd>
+##### Shaxzod Qaxxorov <kbd>[Github](https://github.com/KahhorovSh04) / [LinkedIn](https://www.linkedin.com/in/shakhzad-kakhkhorov)  / [Telegram](https://t.me/shaxzod_qaxxorov) /  [E-Mail](mailto:shaxzodqaxxorov04@gmail.com)</kbd>
 
 A Simple To Do App with facebook's React(ReactJS)
 ==================================
