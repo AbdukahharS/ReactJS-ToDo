@@ -1,0 +1,15 @@
+{
+  "site": {
+    "name": "ReactJS-ToDo",
+    "slug": "reactjs-todo",
+    "themeId": "default"
+  },
+  "navigation": [
+    {
+      "type": "page",
+      "file": "README.md",
+      "title": "Index",
+      "slug": ""
+    }
+  ]
+}
